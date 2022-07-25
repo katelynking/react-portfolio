@@ -25,18 +25,25 @@ export default function Home({currentPage, handlePageChange}) {
             className={`king + ${currentPage === 'Contact'}`}
             ></a>
             <br />
+            
           
           </h1>
+          <span className='font'>(kayt • RAH-kohn-yats • king)</span>
 
-          {/* (kayt • RAH-kohn-yats • kihng) */}
+          
         </div>
 
-        <div className="col-xxl-6">
-          <img src={computer} className="computer"></img>
-          <span className="wd-text">
-            <span className="text-on-image typewriter">/// web developer</span>
-          </span>
-        </div>
+        <span className="col-xxl-6">
+          <figure className='position-relative'>
+            <img src={computer} className="computer"></img>
+          <figcaption className='text-on-image typewriter'>
+            
+              /// web developer
+              
+          </figcaption>
+          </figure>
+          
+        </span>
       </div>
     </div>
   );

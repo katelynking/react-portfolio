@@ -3,6 +3,7 @@
 .nav {
     text-align:center;
     justify-content: center;
+    border-bottom: 0.5px solid rgb(27, 27, 27);
     
 }
 
@@ -13,6 +14,8 @@
     position:absolute;
     background-color: rgb(154, 96, 188);
     color:white;
+    letter-spacing: 2px;
+    font-size: 13px;
 
 }
 
@@ -25,11 +28,9 @@
 }
 
 .crown {
-    width: 10%;
+    width: 7%;
     height: auto;
-    padding: 6px;
-    /* margin-left: 45%;
-    margin-right: 45%; */
+    padding: 4px;
     justify-content: center;
 
 }
@@ -38,11 +39,11 @@
     width: 100%;
     float:right;
     
-    
 }
 
-.fancy {
-    font-family:'Lavishly Yours';
+.font {
+    font-family:'Lexend Zetta';
+    margin: 5px;
 }
 
 
@@ -59,6 +60,7 @@ h1 {
     font-family: 'League Spartan';
     line-height: 100%;
     letter-spacing: -3px;
+    margin-bottom: 20px;
     
 }
 
@@ -66,23 +68,15 @@ h1 {
 .computer {
     width:100%;
     height: auto;
-    float:right;
-    position: relative;
 }
 
-.text-on-image {
-    position: absolute;
-    color:white;
-    left: 53%;
-    bottom: 8%;
-}
 
 
 .kate:after {
     content: 'kate';
 }
 
-.kate:hover:after, .about-header {
+.kate:hover:after {
     content: 'about';
     
     background-image: linear-gradient(
@@ -110,7 +104,7 @@ h1 {
     content: 'rakonjac';
 }
 
-.raki:hover:after, .projects-header {
+.raki:hover:after {
     content: 'projects';
     background-image: linear-gradient(
         225deg,
@@ -137,10 +131,8 @@ h1 {
     content: 'king';
 }
 
-.king:hover:after, .contact-header {
+.king:hover:after {
     content: 'contact';
-
-
     background-image: linear-gradient(
         225deg,
 
@@ -162,11 +154,17 @@ h1 {
 
     
 }
+figure {
+    margin:0px;
+}
 
-.wd-text {
-    float: right;
-    margin-right: 5%;
-    font-size: 30px;
+figcaption {
+    width: 100%;
+    position: absolute;
+    bottom: 2rem;
+    left: 28%;
+    color:white;
+    font-size: 2vw;
     font-family: 'Lexend Zetta';
 }
 
@@ -180,15 +178,35 @@ h1 {
 .centered {
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 
 }
 .project-img {
-    width:40%;
+    width:650px;
     margin: 10px;
     height:auto;
-    border: 60px solid rgb(13, 141, 184);
+    border: 60px solid rgb(94, 197, 231);
 }
 
+.project-img:hover {
+    opacity:60%;
+}
+
+.blue-border {
+    border: 60px solid rgb(94, 197, 231);
+}
+
+.pink-border {
+    border: 60px solid rgb(251, 90, 200);
+}
+
+.green-border {
+    border: 60px solid rgb(116, 219, 115);
+}
+
+.orange-border {
+    border: 60px solid rgb(248, 156, 75);
+}
 
 form {
     padding: 10px;
@@ -214,7 +232,6 @@ form {
 
 .typewriter {
     overflow: hidden; 
-    /* border-right: .15em solid orange;  */
     white-space: nowrap; 
     margin: 0 auto; 
     letter-spacing: .15em; 

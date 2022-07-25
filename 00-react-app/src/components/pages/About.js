@@ -1,32 +1,33 @@
 import React from "react";
 import portrait from "../pages/img/MIS_0251c.png";
-import backArrow from './img/arrow.png'
+import backArrow from './img/arrow.png';
 
-export default function About({currentPage, handlePageChange}) {
+
+export default function About() {
   return (
     <div>
       <div className="row">
       <div className="col-6">
         <h1>about</h1>
+        <a href="#">
+          <img src={backArrow} className='back-arrow'></img>
+        
+        </a>
+        
+        
 
         <p className="about-me">
           Hi.
           <br />
-          I'm Kate, and I'm a full stack developer <br />
+          I'm Kate, and I'm a web developer <br />
           from New Jersey.
         </p>
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home'}
-        >
-        <img src={backArrow} className='back-arrow'></img>
-        </a>
+        
         </div>
 
 
         <div className="col-6">
-          <img src={portrait} className="portrait"></img>
+          <img src={portrait} alt='portrait' className="portrait"></img>
         </div>
 
         

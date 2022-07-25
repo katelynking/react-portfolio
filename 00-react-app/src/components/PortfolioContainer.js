@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-import crown from "./pages/img/king-crown.png"
+import crown from "./pages/img/king-crown.png";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -28,33 +28,37 @@ export default function PortfolioContainer() {
 
   return (
     <div>
-
-<ul className="nav">
-      <li className="nav-item">
-
-        <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
-          className={currentPage === 'Home'}
-        >
-          <img src={crown} className="crown"></img>
-        </a>
-      </li>
-    </ul>
+      <ul className="nav">
+        <li className="nav-item">
+          <a
+            href="#home"
+            onClick={() => handlePageChange("Home")}
+            className={currentPage === "Home"}
+          >
+            <img src={crown} alt="crown logo" className="crown"></img>
+          </a>
+        </li>
+      </ul>
 
       {/* We are passing the currentPage from state and the function to update it */}
-      <Home currentPage={currentPage} handlePageChange={handlePageChange} />
+      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       {renderPage()}
 
       <div className="footer">
-        <a href='https://www.linkedin.com/in/katelyn-king112/'>linked in </a>
-         | 
-         <a href='#'> email </a>
-         |
-         <a href='#'> resume </a>
-         
-         </div>
+        <a target="_blank" href="https://www.linkedin.com/in/katelyn-king112/">
+          linked in{" "}
+        </a>
+        •
+        <a target="_blank" href="https://github.com/katelynking">
+          {" "}
+          github{" "}
+        </a>
+        •
+        <a href="mailto:katelynking112@gmail.com"> email </a>
+        •
+        <a href="#"> resume </a>
+      </div>
     </div>
   );
 }
