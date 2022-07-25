@@ -162,7 +162,7 @@ figcaption {
     width: 100%;
     position: absolute;
     bottom: 2rem;
-    left: 28%;
+    left: 32%;
     color:white;
     font-size: 2vw;
     font-family: 'Lexend Zetta';
@@ -170,9 +170,10 @@ figcaption {
 
 .about-me {
     
-    font-size: 30px;
-    font-family: 'Arial';
+    font-size: 50px;
+    font-family: 'League Spartan';
     margin: 5%;
+    letter-spacing: 3px;
 }
 
 .centered {
@@ -185,7 +186,7 @@ figcaption {
     width:650px;
     margin: 10px;
     height:auto;
-    border: 60px solid rgb(94, 197, 231);
+    border: 50px solid rgb(94, 197, 231);
 }
 
 .project-img:hover {
@@ -193,20 +194,27 @@ figcaption {
 }
 
 .blue-border {
-    border: 60px solid rgb(94, 197, 231);
+    border: 50px solid rgb(75, 195, 206);
 }
 
 .pink-border {
-    border: 60px solid rgb(251, 90, 200);
+    border: 50px solid rgb(234, 89, 188);
 }
 
 .green-border {
-    border: 60px solid rgb(116, 219, 115);
+    border: 50px solid rgb(90, 192, 89);
 }
 
 .orange-border {
-    border: 60px solid rgb(248, 156, 75);
+    border: 50px solid rgb(248, 156, 75);
 }
+
+.contact-img {
+    width: 200px;
+    height: auto;
+    margin: 30px;
+}
+
 
 form {
     padding: 10px;
@@ -236,7 +244,7 @@ form {
     margin: 0 auto; 
     letter-spacing: .15em; 
     animation: 
-      typing 3.5s steps(40, end),
+      typing 4s steps(60, end),
       blink-caret 1s step-end infinite;
   }
   

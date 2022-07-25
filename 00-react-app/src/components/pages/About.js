@@ -19,8 +19,9 @@ export default function About() {
         <p className="about-me">
           Hi.
           <br />
-          I'm Kate, and I'm a web developer <br />
-          from New Jersey.
+          I'm Kate, and I'm a <br/>
+          web developer from <br/>
+          New Jersey.
         </p>
         
         </div>
