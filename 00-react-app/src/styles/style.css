@@ -183,10 +183,10 @@ h1 {
 
 }
 .project-img {
-    width: 40%;
+    width:40%;
     margin: 10px;
     height:auto;
-    
+    border: 60px solid rgb(13, 141, 184);
 }
 
 

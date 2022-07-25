@@ -4,7 +4,7 @@ import React from 'react';
 import musicCharts from './img/project-imgs/music-charts-and-concerts-1.png'
 import notetaker from './img/project-imgs/new-note-created.png'
 import weatherDash from './img/project-imgs/weather-dash.png'
-import workDay from './img/project-imgs/workday-scheduler.gif'
+import workDay from './img/project-imgs/work-day.gif'
 
 export default function Projects() {
   return (
