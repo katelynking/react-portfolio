@@ -1,6 +1,6 @@
 import React from 'react';
 
-import familyCookbook from './img/project-imgs/family-cookbook.gif';
+// import familyCookbook from './img/project-imgs/family-cookbook.gif';
 import musicCharts from './img/project-imgs/music-charts-and-concerts-1.png'
 import notetaker from './img/project-imgs/new-note-created.png'
 import weatherDash from './img/project-imgs/weather-dash.png'
@@ -15,9 +15,9 @@ export default function Projects() {
       </div>
 
       <div className='col-xxl-12 centered'>
-      <a href='#'>
+      {/* <a href='#'>
         <img src={familyCookbook} className='project-img'></img>
-      </a>
+      </a> */}
 
       <a href='#'>
         <img src={weatherDash} className='project-img'></img>
