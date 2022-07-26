@@ -11,7 +11,29 @@ export default function Contact() {
       <h1>contact</h1>
 
       <div className="row">
-        <div className="col-xxl-12 container centered">
+        <div className="col-md-6 container">
+          <form>
+            <label>Your name:</label>
+            <br />
+            <input type="text" name="name"></input>
+            <br />
+            <label>Email:</label>
+            <br />
+            <input type="text" name="email"></input>
+            <br />
+            <label>Message:</label>
+            <br />
+            <textarea type="text" name="msg" className='msg-box'></textarea>
+            <br />
+            <input type="submit" className='submit-btn'></input>
+          </form>
+
+          <a href="/">
+            <img src={backArrow} className="back-arrow"></img>
+          </a>
+        </div>
+
+        <div className="col-md-6 container centered">
           <a
             target="_blank"
             rel="noreferrer"
@@ -19,6 +41,7 @@ export default function Contact() {
           >
             <img src={linkedIn} className="contact-img"></img>
           </a>
+          
 
           <a
             target="_blank"
@@ -27,30 +50,12 @@ export default function Contact() {
           >
             <img src={gitHub} className="contact-img"></img>
           </a>
+          
 
           <a href="mailto:katelynking112@gmail.com">
             <img src={emailIcon} className="contact-img"></img>
           </a>
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <a href="/">
-            <img src={backArrow} className="back-arrow"></img>
-          </a>
-
-          {/* <form>
-        
-          <label>Your name:</label><br/>
-          <input type='text' name='name'></input><br/>
-          <label>Email:</label><br/>
-          <input type='text' name='email'></input><br/>
-          <label>Message:</label><br/>
-          <input type='text' name='msg'></input><br/>
-          <input type='submit'></input>
-        
-        </form> */}
+          
         </div>
       </div>
     </div>

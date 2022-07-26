@@ -228,7 +228,27 @@ figcaption {
 form {
     padding: 10px;
     margin: 10%;
+    font-size: 20px;
+    font-family: 'Arial';
+    letter-spacing: 2px;
+    
 }
+
+
+.submit-btn {
+    margin-top:10px;
+    color: white;
+    background-color: rgb(140, 60, 206);
+    width: 41%;
+    border-radius: 8px;
+
+}
+
+.msg-box {
+    
+    
+}
+
 
 .container {
     position: relative;
