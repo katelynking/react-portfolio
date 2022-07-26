@@ -9,12 +9,9 @@ export default function Contact() {
   return (
     <div>
       <h1>contact</h1>
-      <a href="/">
-        <img src={backArrow} className="back-arrow"></img>
-      </a>
 
       <div className="row">
-        <div className="col-xxl-12 centered">
+        <div className="col-xxl-12 container centered">
           <a
             target="_blank"
             rel="noreferrer"
@@ -39,6 +36,9 @@ export default function Contact() {
           <br />
           <br />
           <br />
+          <a href="/">
+            <img src={backArrow} className="back-arrow"></img>
+          </a>
 
           {/* <form>
         

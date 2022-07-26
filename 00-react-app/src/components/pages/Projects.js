@@ -66,12 +66,13 @@ export default function Projects() {
         <br />
         <br />
         <br />
+        <br />
       </div>
-
-      <br />
-      <a href="/">
-        <img src={backArrow} className="back-arrow"></img>
-      </a>
+      <div className="container">
+        <a href="/">
+          <img src={backArrow} className="back-arrow"></img>
+        </a>
+      </div>
     </div>
   );
 }
