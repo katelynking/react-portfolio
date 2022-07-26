@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Nav from "./pages/Nav";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -7,7 +8,7 @@ import Contact from "./pages/Contact";
 import crown from "./pages/img/king-crown.png";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState();
+  const [currentPage, setCurrentPage] = useState("Home");
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
@@ -38,8 +39,14 @@ export default function PortfolioContainer() {
       </ul>
 
       {/* We are passing the currentPage from state and the function to update it */}
+      <div className='row'>
+      <div className='col-xxl-6'>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+      <div className='col-xxl-6'>
       {renderPage()}
-      <Home currentPage={currentPage} handlePageChange={handlePageChange} />
+      </div>
+      </div>
       {/* Here we are calling the renderPage method which will return a component  */}
       
 

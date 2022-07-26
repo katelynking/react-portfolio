@@ -1,7 +1,5 @@
 import React from "react";
 
-import backArrow from "./img/arrow.png";
-
 import familyCookbook from "./img/project-imgs/fam-cb.gif";
 import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
 import notetaker from "./img/project-imgs/notetaker.png";
@@ -12,7 +10,6 @@ export default function Projects() {
   return (
     <div className="row">
       <div className="col-xxl-12">
-        <h1>projects</h1>
       </div>
 
       <div className="col-md-6 centered container">
@@ -63,15 +60,8 @@ export default function Projects() {
             className="project-img orange-border"
           ></img>
         </a>
-        <br />
-        <br />
-        <br />
-        <br />
-      </div>
-      <div className="container">
-        <a href="/">
-          <img src={backArrow} className="back-arrow"></img>
-        </a>
+        <br/>
+        <br/>
       </div>
     </div>
   );
