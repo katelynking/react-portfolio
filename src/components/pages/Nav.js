@@ -26,7 +26,7 @@ export default function Nav({currentPage, handlePageChange}) {
             
           
           </h1>
-          <span className='font'>(kayt • RAH-kohn-yats • king)</span>
+          <span className='font'>(kayt • RAH-kohn-yahts • king)</span>
 
       
     </div>
