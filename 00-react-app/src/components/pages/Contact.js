@@ -5,15 +5,11 @@ import linkedIn from "./img/contact-imgs/linked-in.png";
 import gitHub from "./img/contact-imgs/github.png";
 import emailIcon from "./img/contact-imgs/email-icon.png";
 
-export default function Contact({ currentPage, handlePageChange }) {
+export default function Contact() {
   return (
     <div>
       <h1>contact</h1>
-      <a
-        href="#home"
-        onClick={() => handlePageChange("Home")}
-        className={currentPage === "Home"}
-      >
+      <a href="/">
         <img src={backArrow} className="back-arrow"></img>
       </a>
 
@@ -21,24 +17,28 @@ export default function Contact({ currentPage, handlePageChange }) {
         <div className="col-xxl-12 centered">
           <a
             target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/katelyn-king112/"
           >
             <img src={linkedIn} className="contact-img"></img>
           </a>
 
-          <a target="_blank" href="https://github.com/katelynking">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/katelynking"
+          >
             <img src={gitHub} className="contact-img"></img>
           </a>
 
           <a href="mailto:katelynking112@gmail.com">
             <img src={emailIcon} className="contact-img"></img>
           </a>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-          
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
 
           {/* <form>
         

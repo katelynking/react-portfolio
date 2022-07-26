@@ -8,26 +8,19 @@ import notetaker from "./img/project-imgs/notetaker.png";
 import weatherDash from "./img/project-imgs/weather-dash.png";
 import workDay from "./img/project-imgs/work-day.gif";
 
-export default function Projects({ currentPage, handlePageChange }) {
+export default function Projects() {
   return (
     <div className="row">
-      <div className="col-xxl-6">
+      <div className="col-xxl-12">
         <h1>projects</h1>
       </div>
-      <a
-        href="#home"
-        onClick={() => handlePageChange("Home")}
-        className={currentPage === "Home"}
-      >
-        <img src={backArrow} className="back-arrow"></img>
-      </a>
 
-      <div className="col-12 centered">
+      <div className="col-md-6 centered container">
         <a
           target="_blank"
           href="https://family-cookbook-astokes.herokuapp.com/"
         >
-          <img src={familyCookbook} className="project-img recent"></img>
+          <img src={familyCookbook} className="project-img orange-border"></img>
         </a>
 
         <a target="_blank" href="https://katelynking.github.io/Weather-API/">
@@ -37,7 +30,8 @@ export default function Projects({ currentPage, handlePageChange }) {
             className="project-img blue-border"
           ></img>
         </a>
-
+      </div>
+      <div className="col-md-6 centered container">
         <a
           target="_blank"
           href="https://bgrinthal.github.io/Music-API-Project/"
@@ -56,7 +50,9 @@ export default function Projects({ currentPage, handlePageChange }) {
             className="project-img green-border"
           ></img>
         </a>
+      </div>
 
+      <div className="col-md-6 centered container">
         <a
           target="_blank"
           href="https://katelynking.github.io/Workday-Scheduler/"
@@ -68,7 +64,14 @@ export default function Projects({ currentPage, handlePageChange }) {
           ></img>
         </a>
         <br />
+        <br />
+        <br />
       </div>
+
+      <br />
+      <a href="/">
+        <img src={backArrow} className="back-arrow"></img>
+      </a>
     </div>
   );
 }

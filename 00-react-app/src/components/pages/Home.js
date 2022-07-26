@@ -2,6 +2,7 @@ import React from "react";
 import computer from "./img/mbcolor.png";
 
 export default function Home({currentPage, handlePageChange}) {
+  
   return (
     <div>
       <div className="row">
@@ -32,6 +33,7 @@ export default function Home({currentPage, handlePageChange}) {
 
           
         </div>
+        
 
         <span className="col-xxl-6">
           <figure className='position-relative'>
@@ -46,5 +48,6 @@ export default function Home({currentPage, handlePageChange}) {
         </span>
       </div>
     </div>
+    
   );
 }

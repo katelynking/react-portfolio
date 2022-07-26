@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 import crown from "./pages/img/king-crown.png";
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState();
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
@@ -21,7 +21,9 @@ export default function PortfolioContainer() {
     if (currentPage === "Projects") {
       return <Projects />;
     }
-    return <Contact />;
+    if (currentPage === "Contact") {
+      return <Contact />;
+    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -30,11 +32,7 @@ export default function PortfolioContainer() {
     <div>
       <ul className="nav">
         <li className="nav-item">
-          <a
-            href="#home"
-            onClick={() => handlePageChange("Home")}
-            className={currentPage === "Home"}
-          >
+          <a href="/">
             <img src={crown} alt="crown logo" className="crown"></img>
           </a>
         </li>
@@ -46,17 +44,23 @@ export default function PortfolioContainer() {
       {renderPage()}
 
       <div className="footer">
-        <a target="_blank" href="https://www.linkedin.com/in/katelyn-king112/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.linkedin.com/in/katelyn-king112/"
+        >
           linked in{" "}
         </a>
         •
-        <a target="_blank" href="https://github.com/katelynking">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/katelynking"
+        >
           {" "}
           github{" "}
         </a>
-        •
-        <a href="mailto:katelynking112@gmail.com"> email </a>
-        •
+        •<a href="mailto:katelynking112@gmail.com"> email </a>•
         <a href="#"> resume </a>
       </div>
     </div>
