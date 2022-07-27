@@ -8,6 +8,8 @@ export default function About() {
       <div className="row">
 
       <div className="col-sm-6 container">
+        <br/>
+        <br/>
           <img src={portrait} alt="portrait" className="portrait"></img>
 
           <p className="about-me">
