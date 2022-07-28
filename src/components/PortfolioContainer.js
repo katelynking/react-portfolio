@@ -32,7 +32,7 @@ export default function PortfolioContainer() {
     <div>
       <ul className="nav">
         <li className="nav-item">
-          <a href="/">
+          <a href="/#home">
             <img src={crown} alt="crown logo" className="crown"></img>
           </a>
         </li>
