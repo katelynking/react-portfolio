@@ -32,7 +32,9 @@ export default function PortfolioContainer() {
     <div>
       <ul className="nav">
         <li className="nav-item">
-          <a href="/#home">
+          <a href="#home"
+          onClick={() => handlePageChange('Home')}
+          className={currentPage === 'Home'}>
             <img src={crown} alt="crown logo" className="crown"></img>
           </a>
         </li>
