@@ -30,7 +30,7 @@ Link to deployed application: [React Portfolio](https://katelynking.github.io/re
 1. Open web application 
 2. Click links on left side to access about, projects, and contact sections
 
-![screenshot of portfolio](src/components/pages/img/react-portfolio.png)
+![screenshot of portfolio](https://raw.githubusercontent.com/katelynking/react-portfolio/portfolio/src/components/pages/img/react-portfolio.png)
 
 <a name="license"></a>
 ## License 

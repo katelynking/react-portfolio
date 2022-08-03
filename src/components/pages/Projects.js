@@ -1,5 +1,6 @@
 import React from "react";
 
+import traklete from "./img/traklete.png";
 import familyCookbook from "./img/project-imgs/fam-cb.gif";
 import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
 import notetaker from "./img/project-imgs/notetaker.png";
@@ -10,14 +11,28 @@ export default function Projects() {
   return (
     <div className="row">
       <div className="col-xxl-12">
-      </div>
-
+        </div>
       <div className="col-md-6 centered container">
+      
+        <a
+          target="_blank"
+          href="https://traklete.herokuapp.com/"
+        >
+          <img 
+            src={traklete} 
+            alt="traklete"
+            className="project-img green-border"></img>
+        </a>
+
+      
         <a
           target="_blank"
           href="https://family-cookbook-astokes.herokuapp.com/"
         >
-          <img src={familyCookbook} className="project-img orange-border"></img>
+          <img 
+            src={familyCookbook} 
+            alt="family cookbook"
+            className="project-img orange-border"></img>
         </a>
 
         <a target="_blank" href="https://katelynking.github.io/Weather-API/">
@@ -28,7 +43,10 @@ export default function Projects() {
           ></img>
         </a>
       </div>
+
+
       <div className="col-md-6 centered container">
+        
         <a
           target="_blank"
           href="https://bgrinthal.github.io/Music-API-Project/"
@@ -47,9 +65,7 @@ export default function Projects() {
             className="project-img green-border"
           ></img>
         </a>
-      </div>
-
-      <div className="col-md-6 centered container">
+      
         <a
           target="_blank"
           href="https://katelynking.github.io/Workday-Scheduler/"
@@ -62,7 +78,12 @@ export default function Projects() {
         </a>
         <br/>
         <br/>
+        </div>
       </div>
-    </div>
+     
+    
+    
+    
+    
   );
 }
