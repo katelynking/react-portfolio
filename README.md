@@ -15,7 +15,6 @@ This project solves the issue of not having a portfolio that will showcase work.
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Test](#test)
 - [Questions](#questions)
 
 <a name="installation"></a>
@@ -44,9 +43,6 @@ BSD
   
   If you would like to contribute to this project, you can do so by providing feedback on code or UI/UX design.
 
-  <a name="test"></a>
-  ## Tests
-  This project was tested using Google Chrome.
  
 
   <a name="questions"></a>

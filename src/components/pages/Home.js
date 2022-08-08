@@ -1,5 +1,5 @@
 import React from "react";
-import computer from "./img/mbcolor.png";
+import computer from "./img/mbcolor-sm.png";
 
 export default function Home() {
   

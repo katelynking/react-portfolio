@@ -50,6 +50,7 @@ body {
 .font {
     font-family:'Lexend Zetta';
     margin: 5px;
+    font-size:1.5vw;
 }
 
 
@@ -69,6 +70,18 @@ h1 {
     margin-bottom: 20px;
     
 }
+
+@media only screen and (max-width: 400px) {
+
+    h1 {
+       font-size: 7em;
+    }
+
+    .font {
+        font-size: 0.75em;
+    }
+}
+
 
 
 .computer {
