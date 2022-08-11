@@ -6,6 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 import crown from "./pages/img/king-crown.png";
+import resume from "./pages/img/contact-imgs/resume-rakonjac-king.pdf";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -70,7 +71,10 @@ export default function PortfolioContainer() {
           github{" "}
         </a>
         •<a href="mailto:katelynking112@gmail.com"> email </a>•
-        <a href="#"> resume </a>
+        <a 
+          target="_blank"
+          rel="noreferrer"
+          href={resume}> resume </a>
       </div>
     </div>
   );

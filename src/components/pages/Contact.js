@@ -20,7 +20,8 @@ export default function Contact() {
           >
             <img src={linkedIn} className="contact-img"></img>
           </a>
-          
+          <br/>
+
 
           <a
             target="_blank"
@@ -29,15 +30,14 @@ export default function Contact() {
           >
             <img src={gitHub} className="contact-img"></img>
           </a>
-          
+          <br/>
 
           <a href="mailto:katelynking112@gmail.com">
             <img src={emailIcon} className="contact-img"></img>
           </a>
-          <br/>
-          <br/>
+          
 
-          <form className='centered'>
+          {/* <form className='centered'>
             <label>Your name:</label>
             <br />
             <input type="text" name="name" className='txt-field'></input>
@@ -51,7 +51,7 @@ export default function Contact() {
             <textarea type="text" name="msg" className='txt-field'></textarea>
             <br />
             <input type="submit" className='submit-btn'></input>
-          </form>
+          </form> */}
           <br/>
           <br/>
 

@@ -27,7 +27,7 @@ export default function Projects() {
       
         <a
           target="_blank"
-          href="https://family-cookbook-astokes.herokuapp.com/"
+          href="https://family-cookbook-king.herokuapp.com/"
         >
           <img 
             src={familyCookbook} 
