@@ -6,7 +6,7 @@ import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
 import crown from "./pages/img/king-crown.png";
-import resume from "./pages/img/contact-imgs/resume-rakonjac-king.pdf";
+import resume from "./pages/img/contact-imgs/Resume-Rakonjac-King.pdf";
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState("Home");

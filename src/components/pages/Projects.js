@@ -1,11 +1,11 @@
 import React from "react";
 
-import traklete from "./img/traklete.png";
-import familyCookbook from "./img/project-imgs/fam-cb.gif";
-import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
-import notetaker from "./img/project-imgs/notetaker.png";
+// import traklete from "./img/traklete.png";
+// import familyCookbook from "./img/project-imgs/fam-cb.gif";
+// import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
+// import notetaker from "./img/project-imgs/notetaker.png";
 import weatherDash from "./img/project-imgs/weather-dash.png";
-import workDay from "./img/project-imgs/work-day.gif";
+// import workDay from "./img/project-imgs/work-day.gif";
 
 export default function Projects() {
   return (
@@ -14,7 +14,7 @@ export default function Projects() {
         </div>
       <div className="col-md-6 centered container">
       
-        <a
+        {/* <a
           target="_blank"
           href="https://traklete.herokuapp.com/"
         >
@@ -22,10 +22,10 @@ export default function Projects() {
             src={traklete} 
             alt="traklete"
             className="project-img green-border"></img>
-        </a>
+        </a> */}
 
       
-        <a
+        {/* <a
           target="_blank"
           href="https://family-cookbook-king.herokuapp.com/"
         >
@@ -33,7 +33,7 @@ export default function Projects() {
             src={familyCookbook} 
             alt="family cookbook"
             className="project-img orange-border"></img>
-        </a>
+        </a> */}
 
         <a target="_blank" href="https://katelynking.github.io/Weather-API/">
           <img
@@ -47,7 +47,7 @@ export default function Projects() {
 
       <div className="col-md-6 centered container">
         
-        <a
+        {/* <a
           target="_blank"
           href="https://bgrinthal.github.io/Music-API-Project/"
         >
@@ -56,17 +56,17 @@ export default function Projects() {
             alt="music charts and concerts app"
             className="project-img pink-border"
           ></img>
-        </a>
+        </a> */}
 
-        <a target="_blank" href="https://notetaker-kark.herokuapp.com/">
+        {/* <a target="_blank" href="https://notetaker-kark.herokuapp.com/">
           <img
             src={notetaker}
             alt="notetaker app"
             className="project-img green-border"
           ></img>
-        </a>
+        </a> */}
       
-        <a
+        {/* <a
           target="_blank"
           href="https://katelynking.github.io/Workday-Scheduler/"
         >
@@ -75,7 +75,7 @@ export default function Projects() {
             alt="workday scheduling app"
             className="project-img orange-border"
           ></img>
-        </a>
+        </a> */}
         <br/>
         <br/>
         </div>

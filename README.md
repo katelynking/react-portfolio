@@ -24,7 +24,7 @@ This project requires the following: a working browser
 
 <a name="usage"></a>
 ## Usage 
-Link to deployed application: [React Portfolio](https://katelynking.github.io/react-portfolio/)
+Link to deployed application: [React Portfolio](http://katelynking.com)
 
 1. Open web application 
 2. Click links on left side to access about, projects, and contact sections

@@ -16,8 +16,9 @@ body {
     padding: 10px;
     width: 100%;
     text-align:center;
-    position:absolute;
-    background-color: rgb(154, 96, 188);
+    position:fixed;
+    bottom:0;
+    background-image: linear-gradient( -150deg, rgb(152, 115, 154), rgb(84, 27, 115)) ;
     color:white;
     letter-spacing: 2px;
     font-size: 13px;
@@ -41,10 +42,9 @@ body {
 }
 
 .portrait {
-    width: 95%;
+    width: 36vh;
     border-radius: 50%;
     margin: 2%;
-    
 }
 
 .font {
@@ -56,7 +56,7 @@ body {
 
 
 a {
-    color:black;
+    color:rgb(16, 59, 104);
     text-decoration: none;
 
 }
@@ -103,7 +103,7 @@ h1 {
 
     #f6a572 0%,
     rgb(245, 166, 56) 15%,
-    rgb(245, 59, 217) 60%,
+    rgb(195, 86, 179) 60%,
     #ffb049 100%
     
   );
@@ -128,10 +128,10 @@ h1 {
     background-image: linear-gradient(
         225deg,
 
-        #68f5a7 0%,
-        rgb(98, 232, 95) 15%,
+        #55b75b 0%,
+        rgb(80, 183, 78) 15%,
         rgb(80, 223, 254) 60%,
-        #75f344 100%
+        #59ae48 100%
         
       );
       background-size: auto auto;
@@ -155,10 +155,10 @@ h1 {
     background-image: linear-gradient(
         225deg,
 
-        #4f1ca1 0%,
+        #664798 0%,
         rgb(121, 73, 184) 15%,
-        rgb(40, 18, 182) 60%,
-        #7c1ac2 100%
+        rgb(16, 37, 130) 60%,
+        #7c4b9f 100%
         
       );
       background-size: auto auto;
@@ -191,10 +191,12 @@ figcaption {
 .about-me {
     position: inherit;
     display: flex;
-    font-size: 4vh;
-    font-family: 'League Spartan';
-    margin: 5%;
-    letter-spacing: 3px;
+    font-size: 2vh;
+    font-family: 'Arial';
+    margin: 0%;
+    letter-spacing: 2.2px;
+    text-align: center;
+    
 }
 
 .centered {
