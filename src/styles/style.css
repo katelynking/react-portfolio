@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=League+Spartan:wght@600&family=Lexend+Zetta&family=Sulphur+Point:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=League+Spartan:wght@600&family=Lexend+Zetta&family=Sulphur+Point:wght@700&family=Quicksand:wght@600&display=swap');
 
 body {
     position: relative;
@@ -18,7 +18,7 @@ body {
     text-align:center;
     position:fixed;
     bottom:0;
-    background-image: linear-gradient( -150deg, rgb(152, 115, 154), rgb(84, 27, 115)) ;
+    background-image: linear-gradient( -150deg, rgb(152, 115, 154), rgb(76, 37, 97)) ;
     color:white;
     letter-spacing: 2px;
     font-size: 13px;
@@ -157,7 +157,7 @@ h1 {
 
         #664798 0%,
         rgb(121, 73, 184) 15%,
-        rgb(16, 37, 130) 60%,
+        rgb(65, 16, 130) 60%,
         #7c4b9f 100%
         
       );
@@ -192,11 +192,19 @@ figcaption {
     position: inherit;
     display: flex;
     font-size: 2vh;
-    font-family: 'Arial';
+    font-family: 'Quicksand';
     margin: 0%;
     letter-spacing: 2.2px;
     text-align: center;
-    
+}
+
+.title {
+    font-family:'League Spartan';
+    /* font-variant: all-small-caps; */
+    font-size:4vh;
+    color: gray;
+
+
 }
 
 .centered {
@@ -212,7 +220,7 @@ figcaption {
     width:90%;
     margin: 15px;
     height:auto;
-    border: 2px solid rgb(94, 197, 231);
+    /* border: 2px solid rgb(94, 197, 231); */
 }
 
 .project-img:hover {

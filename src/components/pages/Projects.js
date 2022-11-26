@@ -1,7 +1,7 @@
 import React from "react";
 
 // import traklete from "./img/traklete.png";
-// import familyCookbook from "./img/project-imgs/fam-cb.gif";
+import familyCookbook from "./img/project-imgs/fam-cb.png";
 // import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
 // import notetaker from "./img/project-imgs/notetaker.png";
 import weatherDash from "./img/project-imgs/weather-dash.png";
@@ -12,8 +12,11 @@ export default function Projects() {
     <div className="row">
       <div className="col-xxl-12">
         </div>
-      <div className="col-md-6 centered container">
-      
+      <div className="col-md-11 centered container">
+      <br />
+      <br />
+      <br />
+      <br />
         {/* <a
           target="_blank"
           href="https://traklete.herokuapp.com/"
@@ -24,28 +27,30 @@ export default function Projects() {
             className="project-img green-border"></img>
         </a> */}
 
-      
-        {/* <a
+        
+        <a
           target="_blank"
           href="https://family-cookbook-king.herokuapp.com/"
         >
           <img 
             src={familyCookbook} 
             alt="family cookbook"
-            className="project-img orange-border"></img>
-        </a> */}
+            className="project-img"></img>
+        </a>
+        <span className='title'>Family Cookbook</span>
+        
 
-        <a target="_blank" href="https://katelynking.github.io/Weather-API/">
+        {/* <a target="_blank" href="https://katelynking.github.io/Weather-API/">
           <img
             src={weatherDash}
             alt="weather dashboard app"
             className="project-img blue-border"
           ></img>
         </a>
-      </div>
+      </div> */}
 
 
-      <div className="col-md-6 centered container">
+      {/* <div className="col-md-6 centered container"> */}
         
         {/* <a
           target="_blank"
