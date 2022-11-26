@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-import crown from "./pages/img/king-crown.png";
+import crown from "./pages/img/king-crown-gold.png";
 import resume from "./pages/img/contact-imgs/Resume-Rakonjac-King.pdf";
 
 export default function PortfolioContainer() {
