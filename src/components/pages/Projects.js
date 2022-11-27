@@ -1,6 +1,6 @@
 import React from "react";
 
-// import traklete from "./img/traklete.png";
+import traklete from "./img/project-imgs/traklete.png";
 import familyCookbook from "./img/project-imgs/fam-cb.png";
 // import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
 // import notetaker from "./img/project-imgs/notetaker.png";
@@ -17,18 +17,20 @@ export default function Projects() {
       <br />
       <br />
       <br />
-        {/* <a
-          target="_blank"
-          href="https://traklete.herokuapp.com/"
-        >
-          <img 
-            src={traklete} 
-            alt="traklete"
-            className="project-img green-border"></img>
-        </a> */}
 
-        
-        <a
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+       {/* Indicators */}
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+       {/* Wrapper for slides */}
+  <div class="carousel-inner">
+    <div class="item active">
+      <a
           target="_blank"
           href="https://family-cookbook-king.herokuapp.com/"
         >
@@ -38,6 +40,91 @@ export default function Projects() {
             className="project-img"></img>
         </a>
         <span className='title'>Family Cookbook</span>
+    </div>
+
+     <div class="item">
+      <a
+          target="_blank"
+          href="https://traklete.herokuapp.com/"
+        >
+          <img 
+            src={traklete} 
+            alt="traklete"
+            className="project-img"></img>
+        </a>
+    </div>
+
+    {/* <div class="item">
+      <img src="ny.jpg" alt="New York">
+    </div>  */}
+  </div>
+
+  {/* Left and right controls */}
+  {/* <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a> */}
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  {/* <!-- Indicators --> */}
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  {/* <!-- Wrapper for slides --> */}
+  {/* <div class="carousel-inner">
+    <div class="item active">
+      <img src={familyCookbook} alt="Family Cookbook">
+      <div class="carousel-caption">
+        <h3>Family Cookbook</h3>
+        <p></p>
+      </div>
+    </div> */}
+
+    {/* <div class="item">
+      <img src="chicago.jpg" alt="Chicago">
+      <div class="carousel-caption">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago!</p>
+      </div>
+    </div> */}
+
+    {/* <div class="item">
+      <img src="ny.jpg" alt="New York">
+      <div class="carousel-caption">
+        <h3>New York</h3>
+        <p>We love the Big Apple!</p>
+      </div>
+    </div> 
+  </div>*/}
+
+  {/* <!-- Left and right controls --> */}
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">next</span>
+  </a>
+</div>
+
+
+
+
+
+        
+
+        
+        
         
 
         {/* <a target="_blank" href="https://katelynking.github.io/Weather-API/">

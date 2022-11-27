@@ -14,7 +14,7 @@ export default function About() {
           <p className="about-me">
             hello, I'm Kate!
             <br /><br/>
-            I am a student at Rutgers University majoring in Computer Science. I enjoy designing websites, painting, yoga, and learning languages (currently taking on Serbian). 
+            I am a student at Rutgers University majoring in Computer Science. I enjoy designing websites, painting, yoga, and learning languages (currently taking on Serbian!). 
             <br /><br />
             I recently graduated from a Full Stack Web Development program, where I have acquired skills in CSS/HTML, JavaScript, Bootstrap, MySQL, Express, React, Node, API and more. 
             <br/><br/>
