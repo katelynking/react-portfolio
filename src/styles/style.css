@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=League+Spartan:wght@600&family=Lexend+Zetta&family=Sulphur+Point:wght@700&family=Quicksand:wght@600&family=Montserrat:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&family=Lavishly+Yours&family=League+Spartan:wght@600&family=Lexend+Zetta&family=Sulphur+Point:wght@700&family=Quicksand:wght@600&family=Playfair+Display&family=Montserrat:wght@400&display=swap');
 
 body {
     position: relative;
@@ -42,9 +42,30 @@ body {
 }
 
 .portrait {
-    width: 36vh;
+    width: 50%;
     border-radius: 50%;
-    margin: 2%;
+    /* margin: 2%; */
+}
+
+.flowers {
+    width:35%;
+    opacity:35%;
+    text-align:center;
+    align-items: center;
+    
+}
+.fl {
+    margin-top:15vh;
+    padding-bottom:2%;
+}
+
+.fl-left {
+    margin-right:2rem;
+    margin-left:1.3rem;
+}
+
+.fl-right {
+    margin-left:2rem;
 }
 
 .font {
@@ -175,10 +196,10 @@ h1 {
 }
 
 figure {
-    margin:0px;
+    /* margin:0px; */
 }
 
-figcaption {
+.home {
     width: 100%;
     position: absolute;
     bottom: 2rem;
@@ -188,13 +209,22 @@ figcaption {
     font-family: 'Lexend Zetta';
 }
 
+.overlay {
+    width: 100%;
+    position: absolute;
+    top:5vh;
+}
+
+
 .about-me {
     position: inherit;
     display: flex;
-    font-size: 2vh;
+    font-size: 2.2vh;
     font-family: 'Montserrat';
-    margin: 0%;
-    letter-spacing: 2.2px;
+    /* font-style: italic; */
+    margin-left:2rem;
+    padding-top:2rem;
+    /* letter-spacing: 1.5px; */
     text-align: center;
 }
 

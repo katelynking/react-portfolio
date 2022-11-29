@@ -1,5 +1,7 @@
 import React from "react";
-import portrait from "../pages/img/MIS_0251k.jpg";
+import portrait from "../pages/img/kking-b.png";
+import leftF from "../pages/img/flowers-l.png";
+import rightF from "../pages/img/flowers-r.png";
 
 
 export default function About() {
@@ -8,13 +10,22 @@ export default function About() {
       <div className="row">
 
       <div className="col-sm-8 container centered">
+        <br/>
+      <figure className='fl'>
+          <img src={rightF} className='flowers fl-left '></img>
+          <img src={leftF} className='flowers fl-right'></img>
+          
+        
+      <figcaption className='overlay centered'><img src={portrait} alt="portrait" className="portrait"></img>
+      </figcaption>
+      </figure>
+          
     
-          <img src={portrait} alt="portrait" className="portrait"></img>
 
           <p className="about-me">
             hello, I'm Kate!
-            <br /><br/>
-            I am a student at Rutgers University majoring in Computer Science. I enjoy designing websites, painting, yoga, and learning languages (currently taking on Serbian!). 
+            <br/><br/>
+            I am a student at Rutgers University majoring in Computer Science. I enjoy designing websites, painting, yoga, and learning languages (currently learning Serbian). 
             <br /><br />
             I recently graduated from a Full Stack Web Development program, where I have acquired skills in CSS/HTML, JavaScript, Bootstrap, MySQL, Express, React, Node, API and more. 
             <br/><br/>
@@ -22,7 +33,7 @@ export default function About() {
             <br />
             <br />
             <br />
-
+     
           </p>
           
           <br />

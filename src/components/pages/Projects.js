@@ -2,10 +2,11 @@ import React from "react";
 
 import traklete from "./img/project-imgs/traklete.png";
 import familyCookbook from "./img/project-imgs/fam-cb.png";
-// import musicCharts from "./img/project-imgs/music-charts-and-concerts-1.png";
-// import notetaker from "./img/project-imgs/notetaker.png";
+
 import weatherDash from "./img/project-imgs/weather-dash.png";
-// import workDay from "./img/project-imgs/work-day.gif";
+
+
+import tiger from "./img/project-imgs/bengalTiger.png";
 
 export default function Projects() {
   return (
@@ -14,9 +15,8 @@ export default function Projects() {
         </div>
       <div className="col-md-11 centered container">
       <br />
-      <br />
-      <br />
-      <br />
+
+
 
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -52,11 +52,21 @@ export default function Projects() {
             alt="traklete"
             className="project-img"></img>
         </a>
+        <span className='title'>Traklete</span>
     </div>
 
-    {/* <div class="item">
-      <img src="ny.jpg" alt="New York">
-    </div>  */}
+    <div class="item">
+      <a
+          target="_blank"
+          href="https://katelynking.github.io/bengalTiger"
+        >
+          <img 
+            src={tiger} 
+            alt="bengal tiger"
+            className="project-img"></img>
+        </a>
+        <span className='title'>Bengal Tiger</span>
+    </div> 
   </div>
 
   {/* Left and right controls */}
@@ -107,14 +117,14 @@ export default function Projects() {
   </div>*/}
 
   {/* <!-- Left and right controls --> */}
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+  {/* <a class="left carousel-control" href="#myCarousel" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
     <span class="sr-only">previous</span>
   </a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next">
     <span class="glyphicon glyphicon-chevron-right"></span>
     <span class="sr-only">next</span>
-  </a>
+  </a> */}
 </div>
 
 

@@ -8,7 +8,7 @@ export default function Home() {
   
           <figure className='position-relative'>
             <img src={computer} className="computer"></img>
-          <figcaption className='text-on-image typewriter'>
+          <figcaption className='home text-on-image typewriter'>
             
               /// web developer
               
