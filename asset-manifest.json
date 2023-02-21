@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5d1f3afc.css",
+    "main.js": "/static/js/main.54bc4cf5.js",
+    "static/media/traklete.png": "/static/media/traklete.fda1e67a860a57f2dcf7.png",
+    "static/media/fam-cb.png": "/static/media/fam-cb.5ddabaef7ce8a8def9d3.png",
+    "static/media/kking-b.png": "/static/media/kking-b.d830cad65605896861bb.png",
+    "static/media/flowers-r.png": "/static/media/flowers-r.c740b518253878ad4fd5.png",
+    "static/media/flowers-l.png": "/static/media/flowers-l.3ee143943a339c8382f5.png",
+    "static/media/weather-dash.png": "/static/media/weather-dash.e78c90ef3a958b4a92cc.png",
+    "static/media/Resume-Rakonjac-King.pdf": "/static/media/Resume-Rakonjac-King.beae95c05cb4e91bfc07.pdf",
+    "static/media/gradientsq.jpg": "/static/media/gradientsq.908216fe37f35f164703.jpg",
+    "static/media/king-crown-gold.png": "/static/media/king-crown-gold.13fe25a7ca2e62f4332d.png",
+    "static/media/email-icon.png": "/static/media/email-icon.58839db371a508f12e98.png",
+    "static/media/linked-in.png": "/static/media/linked-in.c67a0b2e4727428a7a77.png",
+    "index.html": "/index.html",
+    "main.5d1f3afc.css.map": "/static/css/main.5d1f3afc.css.map",
+    "main.54bc4cf5.js.map": "/static/js/main.54bc4cf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d1f3afc.css",
+    "static/js/main.54bc4cf5.js"
+  ]
+}
