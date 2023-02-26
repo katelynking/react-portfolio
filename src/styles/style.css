@@ -110,7 +110,34 @@ h1 {
     height: auto;
 }
 
+#home-bkgrd {
+    /* background-image:
+        linear-gradient(#87bfb6, transparent),
+        linear-gradient(to top, #1e3046, transparent),
+        linear-gradient(to bottom left, #6c4e72, transparent),
+        linear-gradient(to bottom right, #b07683); */
 
+
+    background-image: linear-gradient(
+        225deg,
+
+        #664798 0%,
+        rgb(121, 73, 184) 15%,
+        rgb(65, 16, 130) 60%,
+        #7c4b9f 100%
+        
+      );
+      /* background-size: auto auto;
+      background-clip: border-box;
+      background-size: 300% auto;
+      color: #fff;
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; */
+      animation: textclip 5s ease infinite;
+      /* display: inline-block; */
+
+}
 
 .kate:after {
     content: 'kate';
@@ -195,18 +222,18 @@ h1 {
     
 }
 
-figure {
-    /* margin:0px; */
-}
 
 .home {
     width: 100%;
     position: absolute;
-    bottom: 2rem;
-    left: 32%;
+    bottom: 7rem;
+    text-align:right;
+    /* left: 25%; */
     color:white;
-    font-size: 2vw;
-    font-family: 'Lexend Zetta';
+    font-size: 4vw;
+    font-weight:bold;
+    /* letter-spacing:0.1em; */
+    font-family: 'Montserrat';
 }
 
 .overlay {
@@ -228,6 +255,12 @@ figure {
     text-align: center;
 }
 
+.project-name {
+    font-family:'Montserrat';
+    font-size:6vh;
+    font-weight: bold;
+}
+
 .title {
     font-family:'League Spartan';
     /* font-variant: all-small-caps; */
@@ -244,19 +277,50 @@ figure {
 
 }
 
+.scroll {
+    /* padding-top:20%; */
+    overflow-x:scroll;
+    white-space: nowrap;
+}
 
 
 .project-img {
     width:90%;
     margin: 15px;
     height:auto;
+    /* z-index:1; */
     /* border: 2px solid rgb(94, 197, 231); */
 }
 
-.project-img:hover {
-    opacity:60%;
+
+
+.p-img:hover .project-img {
+    opacity: 10%;
+    transition:opacity 0.5s;
 }
 
+.projects {
+    width: 100%;
+    position: absolute;
+    bottom: 9.1rem;
+    opacity: 0%;
+}
+
+.p-img:hover .projects {
+    opacity: 100%;
+    transition:opacity 0.5s;
+    color:rgb(16, 59, 104);
+    font-weight:bold;
+    font-family: 'Montserrat';  
+}
+
+.project-desc {
+    font-size: 2.2vh;
+    color:rgb(16, 59, 104);
+    font-weight:bold;
+    font-family: 'Montserrat';
+
+}
 
 
 .blue-border {
@@ -320,14 +384,14 @@ form {
     
 }
 
-.back-arrow {
+/* .back-arrow {
     padding: 10px;
     width: 60px;
     height: auto;
     position:absolute;
     bottom:0;
     display:flex;
-}
+} */
 
 
 

@@ -8,9 +8,11 @@ export default function Home() {
   
           <figure className='position-relative'>
             <img src={computer} className="computer"></img>
-          <figcaption className='home text-on-image typewriter'>
-            
-              /// web developer
+          <figcaption className='home'>
+              Web developer. <br/>
+              Student at Rutgers. <br/>
+              
+
               
           </figcaption>
           </figure>

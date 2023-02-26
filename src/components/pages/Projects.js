@@ -15,14 +15,16 @@ export default function Projects() {
         </div>
       <div className="col-md-11 centered container">
       <br />
-
+      <br/>
+      <br/>
+      <br/>
 
 
 
       
 
        
-    <div class="item active">
+    <figure className="position-relative scroll p-img">
       <a
           target="_blank"
           href="https://family-cookbook-king.herokuapp.com/"
@@ -30,13 +32,21 @@ export default function Projects() {
           <img 
             src={familyCookbook} 
             alt="family cookbook"
-            className="project-img"></img>
-        </a>
-        <span className='title'>Family Cookbook</span>
-    </div>
+            className="project-img"
+            ></img>
+    <figcaption className="projects">
+          <span className="project-name">Family Cookbook</span><br/>
+        <span className="project-desc">
+        organize your family's homemade recipes by storing and saving 
+        recipes 
+        </span>
+        </figcaption>
 
-     <div class="item">
-      <a
+        </a>
+    
+
+     
+      {/* <a
           target="_blank"
           href="https://traklete.herokuapp.com/"
         >
@@ -44,9 +54,12 @@ export default function Projects() {
             src={traklete} 
             alt="traklete"
             className="project-img"></img>
-        </a>
-        <span className='title'>Traklete</span>
-    </div>
+        </a> */}
+
+        <br/>
+<br/>
+<br/>
+    </figure>
 
 
 <br/>
