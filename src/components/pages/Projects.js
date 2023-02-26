@@ -15,16 +15,14 @@ export default function Projects() {
         </div>
       <div className="col-md-11 centered container">
       <br />
-      <br/>
-      <br/>
-      <br/>
-
+ 
 
 
       
 
        
-    <figure className="position-relative scroll p-img">
+    <figure className="scroll p-img">
+      
       <a
           target="_blank"
           href="https://family-cookbook-king.herokuapp.com/"
@@ -33,17 +31,19 @@ export default function Projects() {
             src={familyCookbook} 
             alt="family cookbook"
             className="project-img"
-            ></img>
+            ></img><span className="overlay1">
     <figcaption className="projects">
-          <span className="project-name">Family Cookbook</span><br/>
+          <span className="project-name">family cookbook</span><br/><br/>
         <span className="project-desc">
-        organize your family's homemade recipes by storing and saving 
+        organize your family's homemade recipes<br/> by storing and saving 
         recipes 
         </span>
+        
         </figcaption>
+        </span>
 
         </a>
-    
+        
 
      
       {/* <a
