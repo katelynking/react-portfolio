@@ -1,6 +1,6 @@
 import React from "react";
 
-import traklete from "./img/project-imgs/traklete.png";
+import wDash from "./img/project-imgs/weather-dash.png";
 import familyCookbook from "./img/project-imgs/fam-cb.png";
 
 
@@ -13,7 +13,7 @@ export default function Projects() {
     <div className="row">
       <div className="col-xxl-12">
         </div>
-      <div className="col-md-11 centered container">
+      <div className="col-md-11 container">
       <br />
  
 
@@ -21,7 +21,7 @@ export default function Projects() {
       
 
        
-    <figure className="scroll p-img">
+    <figure className="p-img centered">
       
       <a
           target="_blank"
@@ -33,7 +33,7 @@ export default function Projects() {
             className="project-img"
             ></img><span className="overlay1">
     <figcaption className="projects">
-          <span className="project-name">family cookbook</span><br/><br/>
+          <span className="project-name">family <br/>cookbook</span><br/><br/>
         <span className="project-desc">
         organize your family's homemade recipes<br/> by storing and saving 
         recipes 
@@ -43,23 +43,35 @@ export default function Projects() {
         </span>
 
         </a>
-        
+        </figure>
+        <br/>
 
-     
-      {/* <a
+
+        <figure className="w-dash">
+      <a
           target="_blank"
-          href="https://traklete.herokuapp.com/"
+          href="https://katelynking.github.io/Weather-API/"
         >
           <img 
-            src={traklete} 
-            alt="traklete"
-            className="project-img"></img>
-        </a> */}
+            src={wDash} 
+            alt="weather dashboard"
+            className="w-img"></img><span className='overlay2'>
+            <figcaption className="w-projects centered">
+          <span className="w-dash-name">weather <br/> dashboard</span><br/><br/>
+        <span className="w-dash-desc">
+        access the current and 5 day forecasts <br/>
+        for any city 
+        </span>
+        
+        </figcaption></span>
+        </a>
+</figure>
 
-        <br/>
+
 <br/>
 <br/>
-    </figure>
+<br/>
+    
 
 
 <br/>
