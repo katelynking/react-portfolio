@@ -58,8 +58,8 @@ export default function Projects() {
             <figcaption className="w-projects centered">
           <span className="w-dash-name">weather <br/> dashboard</span><br/><br/>
         <span className="w-dash-desc">
-        access the current and 5 day forecasts <br/>
-        for any city 
+        access the current & 5 day 
+        forecasts for any city 
         </span>
         
         </figcaption></span>

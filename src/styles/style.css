@@ -101,6 +101,7 @@ h1 {
     .font {
         font-size: 0.75em;
     }
+
 }
 
 
@@ -303,7 +304,7 @@ h1 {
 
 .overlay1 {
     position:absolute;
-    background-image:linear-gradient(5deg, rgba(11, 14, 26, 0.802), rgba(9, 13, 35, 0.538)
+    background-image:linear-gradient(5deg, rgba(11, 14, 26, 0.849), rgba(9, 13, 35, 0.538)
     );
     top: 0;
     bottom:0;
@@ -326,7 +327,7 @@ h1 {
 .projects {
     width: 100%;
     position: absolute;
-    bottom: 4rem;
+    top: 8vh;
     opacity: 0%;
 }
 
@@ -344,6 +345,7 @@ h1 {
     font-weight:bold;
     font-family: 'Montserrat';
     opacity:1;
+    
 
 }
 
@@ -391,7 +393,7 @@ h1 {
     width: 100%;
     position: absolute;
     opacity: 0%;
-    bottom: 2rem;
+    top: 2rem;
 }
 
 .w-dash:hover .w-projects {
@@ -404,13 +406,14 @@ h1 {
 
 .w-dash-name {
     font-family:'League Spartan';
-    font-size:5vh;
+    font-size:4vh;
     font-weight: bold;
-    line-height:4vh;
+    line-height:3vh;
 }
 
 .w-dash-desc {
-    font-size: 2.2vh;
+    font-size: 0.75em;
+    line-height:1vh;
     color:rgb(255, 255, 255);
     font-weight:bold;
     font-family: 'Montserrat';
