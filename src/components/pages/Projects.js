@@ -35,8 +35,7 @@ export default function Projects() {
     <figcaption className="projects">
           <span className="project-name">family <br/>cookbook</span><br/><br/>
         <span className="project-desc">
-        organize your family's homemade recipes<br/> by storing and saving 
-        recipes 
+        upload your family's homemade recipes 
         </span>
         
         </figcaption>
