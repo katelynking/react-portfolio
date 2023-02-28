@@ -27,7 +27,7 @@ export default function About() {
             <br/><br/>
             I am a student at Rutgers University majoring in Computer Science. I enjoy creating websites, painting, working out, and learning languages (currently learning Serbian). 
             <br /><br />
-            I recently graduated from a Full Stack Web Development program, where I have acquired skills in CSS/HTML, JavaScript, Bootstrap, MySQL, Express, React, Node, API and more. 
+            I recently graduated from a Full Stack Web Development program, where I have acquired skills in CSS/HTML, JavaScript, Bootstrap, (my)SQL, MongoDB, Express, React, Node, API and more. 
             <br/><br/>
             I have also recently collaborated with a team of 5 to develop an online Family Cookbook application that allows users to upload their favorite family recipes. 
             <br />
